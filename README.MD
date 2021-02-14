@@ -8,7 +8,7 @@ Please see detailes below
 ## pipeline
 - build the provided application (https://github.com/reali-devops/python-app)
 - push it to a docker hub (einavl)
-- sync the helm application (integrate with argoCD)
+- sync the helm application (integrate with the argoCD application that deployed on our cluster)
 
 ## reali
  - define the k8s application that runs the provided sample above
