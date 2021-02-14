@@ -1,0 +1,7 @@
+
+nameSpace: einav-reali-ns
+realiAppName: reali-einav
+realiVersionVersion: 1
+realiAppAppPort: 5000
+
+realiHostName: reali-svc
