@@ -5,12 +5,12 @@ Please see detailes below
 
 # This project has two folders
 
-## pipeline
+## 1. pipeline
 - build the provided application (https://github.com/reali-devops/python-app)
 - push it to a docker hub (einavl)
 - sync the helm application (integrate with the argoCD application that deployed on our cluster)
 
-## reali
+## 2.  reali
  - define the k8s application that runs the provided sample above
  
  
