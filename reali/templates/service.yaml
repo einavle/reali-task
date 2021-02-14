@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: "{{.Values.realiHostName}}"
+  namespace: "{{.Values.nameSpace}}"
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 8080
+      targetPort: {{.Values.realiAppAppPort}}
+  selector:
+    app: reali-app

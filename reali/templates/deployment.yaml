@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: reali-app
+  namespace: "{{.Values.nameSpace}}"
+  labels:
+    app: reali-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: reali-app
+  template:
+    metadata:
+      labels:
+        app: reali-app
+    spec:
+      containers:
+        - image: einavl/{{.Values.realiAppName}}:{{.Values.realiVersionVersion}}
+          name: reali-app
+          ports:
+            - containerPort: {{.Values.realiAppAppPort}}
