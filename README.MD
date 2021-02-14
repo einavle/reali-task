@@ -11,4 +11,4 @@
  
  https://github.com/einavle/reali-task/blob/master/images/reali-argoCD.png
  
- 
+ ![Screenshot](images/reali-argoCD.png)
