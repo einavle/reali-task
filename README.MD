@@ -1,3 +1,5 @@
+For the sake of this task, I created a cluster and deployed an argoCD application in it
+
 # This project has two folders
 
 ## pipeline
