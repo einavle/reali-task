@@ -19,4 +19,5 @@ Please see detailes below
   ![Screenshot](images/reali-codefresh.png)
  
 ## ArgoCD App
+a visualization of our sample app deployment layout
  ![Screenshot](images/reali-argoCD.png)
