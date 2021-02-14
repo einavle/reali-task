@@ -7,7 +7,9 @@ stages:
   - "clone"
   - "build"
 
+
 steps:
+  # clone the provided sample app
   clone:
     title: "Cloning reali sample flask repo"
     type: "git-clone"
@@ -18,6 +20,7 @@ steps:
     git: "github"
     stage: "clone"
 
+  # build and push the provided flask app (https://github.com/reali-devops/python-app)
   Docker-Build:
     title: Building reali docker image
     type: "build"
@@ -28,7 +31,7 @@ steps:
     stage: "build"
 
 
-
+# invoke the integrated argoCD app to sync on the cluster
   sync_ebay-k8s-deployment:
     title: Sync ArgoCD reali app
     type: argocd-sync
