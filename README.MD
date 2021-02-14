@@ -9,3 +9,6 @@
  - define the k8s application that runs the provided sample above
  
  
+ https://github.com/einavle/reali-task/blob/master/images/reali-argoCD.png
+ 
+ 
