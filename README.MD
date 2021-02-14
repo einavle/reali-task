@@ -9,6 +9,9 @@
  - define the k8s application that runs the provided sample above
  
  
- https://github.com/einavle/reali-task/blob/master/images/reali-argoCD.png
+ ## Pipline image
  
+  ![Screenshot](images/reali-codefresh.png)
+ 
+## ArgoCD App
  ![Screenshot](images/reali-argoCD.png)
