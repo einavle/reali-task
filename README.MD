@@ -1,5 +1,6 @@
-For the sake of this task, I created a cluster and deployed an argoCD application in it
-Inside the argoCD, IK created our sample application.
+For the sake of this task, I created a cluster and deployed an argoCD application in it.
+
+Inside the argoCD, I created our sample application.
 Please see detailes below
 
 # This project has two folders
