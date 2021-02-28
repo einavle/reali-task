@@ -67,8 +67,13 @@ module "eks" {
       max_capacity     = 10
       min_capacity     = 1
 
-      instance_type = "m5.large"
+      instance_type = "t2.micro"
+      spot_price    = "0.003500"
     }
+  }
+
+  worker_groups = {
+
   }
 
   write_kubeconfig   = true
